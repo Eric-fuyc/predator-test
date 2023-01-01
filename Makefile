@@ -1,6 +1,6 @@
 .PHONY: release install test build compile lint
 
-release: test build compile
+release: test build compile lint
 	rm -rf build
 	mkdir build
 	cp dist build -r
