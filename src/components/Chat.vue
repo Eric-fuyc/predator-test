@@ -10,6 +10,7 @@
     <button @click="handleClickChange()">Submit</button>
   </div>
   You are <b>{{ info.name }}</b>
+
   <div>
     <input
       type="text"
