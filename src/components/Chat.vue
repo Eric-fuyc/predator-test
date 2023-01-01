@@ -10,13 +10,23 @@
     <button @click="handleClickChange()">Submit</button>
   </div>
   You are <b>{{ info.name }}</b>
+
+
+
+
+
+
+
+
+
+
+
   <div>
     <input
       type="text"
       name="chat"
-      id="chat"
-      v-model="message"
-      @keyup.enter="handleClick"
+                            id="chat"
+      v-model="message"  @keyup.enter="handleClick"
     />
     <button @click="handleClick()">Send</button>
   </div>
