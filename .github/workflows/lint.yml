@@ -14,7 +14,7 @@ jobs:
       uses: actions/setup-node@v3.5.1
 
     - name: Install Prettier
-      runs: npm install prettier
+      run: npm install prettier
 
     - name: Run linters
       uses: wearerequired/lint-action@v1
